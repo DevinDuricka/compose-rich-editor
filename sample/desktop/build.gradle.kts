@@ -8,7 +8,7 @@ plugins {
 
 kotlin {
     jvm {
-        withJava()
+
     }
 
     sourceSets.jvmMain.dependencies {

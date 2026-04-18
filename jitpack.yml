@@ -1,0 +1,6 @@
+jdk:
+  - openjdk24
+before_install:
+  - chmod +x gradlew
+install:
+  - ./gradlew publishToMavenLocal -Dmaven.repo.local=$HOME/.m2/repository
